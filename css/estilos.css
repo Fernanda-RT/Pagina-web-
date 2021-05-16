@@ -117,7 +117,7 @@ header nav a.activo{
     margin-right: 1.25em;
 }
 .overLay {
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, 0);
     position: fixed;
     top: 0;
     bottom: o;
@@ -160,7 +160,7 @@ header nav a.activo{
     color: #000;
     margin-bottom: 10px;
 }
-.popup h5 {
+.popup h4 {
     font-size: 26px;
     font-weight: 300;
     color: #000;
