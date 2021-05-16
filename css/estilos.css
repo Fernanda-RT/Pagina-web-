@@ -1,0 +1,338 @@
+:root{
+    --fondo: -webkit-linear-gradient(to right, #bc4e9c,#f80759);
+    --fondo: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px; 
+    margin: auto;
+    overflow: hidden;
+}
+.cont2{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.cont3{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    padding: 30px 0;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, #bc4e9c,#f80759);
+    background:  linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664));
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .cont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .cont3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logotipo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: rgb(6, 19, 43);
+    font-size: 40px;
+}
+header nav a {
+    color: rgb(14, 3, 36);
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.activo{
+    color: #fff;
+}
+
+/* primcipal-----*/
+.principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/gat.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items:flex-end;
+}
+.principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+.principal .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+.principal .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+.principal .boton{
+    background: rgba(230, 90, 148, 8.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+.principal .boton:hover {
+    background: #fff;
+    color: #000;
+}
+.principal .boton i {
+    margin-right: 1.25em;
+}
+.section{
+    font-size: 18px;
+    min-height: 42.20em;
+    color: rgb(10, 10, 10);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/j.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items:inherit;
+}
+.section .cont2{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+.section .titulo1{
+    text-decoration: underline;
+    text-align: center;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+.section .texto{
+    text-decoration:solid;
+    text-align:justify; 
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+}
+.section .vision{
+    text-decoration:solid;
+    text-align:justify; 
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+}
+.section .trabajando{
+    text-decoration:solid;
+    text-align:justify;
+    color: aliceblue; 
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+}
+table{
+    /*border: #ccc;*/
+     margin: auto;
+ }
+ .imagen{
+    width: 300px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+.imagen:hover{
+    /* transform:rotate:(30deg); */
+    transform: scale(1.2);
+}
+.section2{
+    font-size: 18px;
+    min-height: 42.20em;
+    color: rgb(10, 10, 10);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/f.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items:inherit;
+}
+.section2 .cont3{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+.section2 .titulo2{
+    text-decoration: underline;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+.section2 .tex{
+    text-decoration:solid;
+    text-align:justify; 
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+}
+.section2 .patita{
+    text-decoration:solid;
+    text-align:justify; 
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+}
+table{
+     margin: auto;
+ }
+ .imagen{
+    width: 400px;
+    border-radius: 200px;
+    border: 2px solid #ccc;
+}
+.imagen:hover{
+    transform: scale(1.2);
+}
+footer{
+    background: var(--fondo);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #000;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    header .logotipo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+    header .cont2{
+        flex-direction: column;
+        text-align: center;
+    }
+    header .cont3{
+        flex-direction: column;
+        text-align: center;
+    }
+    .principal {
+        font-size: 14px;
+    }
+    .principal .descripcion {
+        max-width: 100%;
+    }   
+    .section{
+        font-size: 14px;
+    }
+    .section .texto{
+        max-width: 100%;
+    }
+    .section .vision{
+        max-width: 100%;
+    }
+    .section .trabajando{
+        max-width: 100%;
+    }
+    .section2{
+        font-size: 14px;
+    }
+    .section2 .tex{
+        max-width: 100%;
+    }
+    .section2 .patita{
+        max-width: 100%;
+    }
+    table{
+        max-width: 100%;
+    }
+    .imagen{
+        max-width: 100%;
+    }
+    .imagen:hover{
+        max-width: 100%;
+    }
+    footer .contenedor-footer{
+        max-width: 100%;
+    }
+    footer .contenedor-footer{
+        max-width: 100%;
+    }
+    footer .content-foo h4{
+        max-width: 100%;
+    }
+    footer .content-foo p{
+        max-width: 100%;
+    }
+}
