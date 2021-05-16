@@ -139,6 +139,8 @@ header nav a.activo{
     padding: 20px;
     text-align: center;
     width: 600px;
+    transition:  .2s ease all;
+    transform: scale(0.7);
     opacity: 0;
 }
 .popup .btn-cerrar-popup {
@@ -187,6 +189,10 @@ header nav a.activo{
 }
 .popup form .btn-submit:hover {
     background: rgba(94, 125, 227, .4);
+}
+.popup.active {
+    opacity: 1; 
+    transform: scale(1);
 }
 .section{
     font-size: 18px;
