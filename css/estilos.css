@@ -132,7 +132,7 @@ header nav a.activo{
     visibility: visible;
 }
 .popup {
-    background: #f8f8f8;
+    background: #3df7a0;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
@@ -157,11 +157,13 @@ header nav a.activo{
 .popup h3 {
     font-size: 36px;
     font-weight: 600;
+    color: #000;
     margin-bottom: 10px;
 }
 .popup h5 {
     font-size: 26px;
     font-weight: 300;
+    color: #000;
     margin-bottom: 40px;
 }
 .popup form .contenedor-inputs{}
@@ -172,14 +174,14 @@ header nav a.activo{
     line-height: 52px;
     font-size: 18px;
     text-align: center;
-    border: 1px solid #BBBBBB;
+    border: 1px solid #111111;
 }
 .popup form .btn-submit {
     padding: 0 20px;
     height: 40px;
     line-height: 40px;
     border: none;
-    color: #fff;
+    color: rgb(19, 18, 18);
     background: #5E7DE3;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
